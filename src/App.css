@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ff0050, #0051ff);
+  color: white;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero .tagline {
+  font-size: 1.5rem;
+  margin: 10px 0 20px;
+}
+
+.stats {
+  margin: 20px 0;
+}
+
+.stats p {
+  margin: 5px 0;
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #ff0050;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons .btn:hover {
+  background-color: #ff0050;
+  color: white;
+}
+
+.about, .how-to-buy, .roadmap, .community {
+  padding: 40px 20px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.about h2, .how-to-buy h2, .roadmap h2, .community h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+}
